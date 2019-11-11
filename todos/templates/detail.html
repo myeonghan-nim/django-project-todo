@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+  <div class="jumbotron m-5">
+
+    <h1 class="display-4">{{todo.title}}</h1>
+
+    <p class="lead">{{todo.content}}</p>
+
+    <hr class="my-4">
+
+    <p>{{todo.due_date}}</p>
+    
+    <a class="btn btn-warning btn-lg" href="/todos/{{todo.id}}/edit/" role="button">Modify</a>
+    <a class="btn btn-danger btn-lg" href="/todos/{{todo.id}}/delete/" role="button" onclick="return confirm('delete?')">Delete</a>
+
+  </div>
+
+{% endblock %}
