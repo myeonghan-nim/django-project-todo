@@ -1,6 +1,6 @@
 # README
 
-### CRUD logic in Django
+## CRUD logic in Django
 
 ```python
 urlpatterns = [
