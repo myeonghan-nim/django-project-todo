@@ -1,13 +1,12 @@
-# README
+# Clone Project: Board App
 
-## CRUD logic in django
+## CRUD
 
 ```python
 urlpatterns = [
-    path('create/', views.create),  # CREATE
-    path('read/', views.read),  # READ
-    path('update/', views.update),  # UPDATE
-    path('delete/', views.delete),  #DELETE
+    path('create/', views.create),
+    path('read/', views.read),
+    path('update/', views.update),
+    path('delete/', views.delete),
 ]
 ```
-
