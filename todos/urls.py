@@ -1,19 +1,17 @@
 from django.urls import path
+
 from . import views
 
 urlpatterns = [
-    # CREATE logic
+    # CREATE
     path('new/', views.new),
     path('create/', views.create),
-
-    # READ logic
+    # READ
     path('', views.index),
     path('<int:todo_id>/detail', views.detail),
-
-    # DELETE logic
+    # DELETE
     path('<int:todo_id>/delete/', views.delete),
-
-    # UPDATE logic
+    # UPDATE
     path('<int:todo_id>/edit/', views.edit),
     path('<int:todo_id>/update/', views.update),
 ]
