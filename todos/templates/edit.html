@@ -1,26 +1,19 @@
 {% extends 'base.html' %}
 
 {% block body %}
-
   <form action="/todos/{{todo.id}}/update/" class="m-5">
-
     <div class="form-group">
       <label for="title">To-do</label>
       <input type="text" class="form-control" id="title" name="title" value="{{todo.title}}">
     </div>
-
     <div class="form-group">
       <label for="content">Content</label>
       <input type="text" class="form-control" id="content" name="content" value="{{todo.content}}">
     </div>
-
     <div class="form-group">
       <label for="due-date">Due-date</label>
       <input type="date" class="form-control" id="due-date" name="due-date" value="{{todo.due_date|date:'Y-m-d'}}">
     </div>
-
     <button type="submit" class="btn btn-warning">Update</button>
-    
   </form>
-
 {% endblock %}

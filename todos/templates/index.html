@@ -1,9 +1,7 @@
 {% extends 'base.html' %}
 
 {% block body %}
-
   <table class="table m-5">
-
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -12,7 +10,6 @@
         <th scope="col">Buttons</th>
       </tr>
     </thead>
-
     <tbody>
       {% for todo in todos %}
         <tr>
@@ -32,7 +29,5 @@
         </tr>
       {% endfor %}
     </tbody>
-    
   </table>
-
 {% endblock %}
