@@ -1,0 +1,4 @@
+autopep8==1.5.7
+Django==3.2.5
+pipdeptree==2.0.0
+setuptools==56.0.0
