@@ -1,4 +1,4 @@
-# Clone Project: TO-DO App
+# Clone Project: TO-DO
 
 ## CRUD
 
