@@ -1,4 +1,4 @@
-# Clone Project: TO-DO
+# Project: TO-DO
 
 ## CRUD
 
